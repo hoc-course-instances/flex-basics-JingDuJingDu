@@ -10,26 +10,33 @@ body {
 }
 
 .container {
-
+    background-color:darkgreen;
+    color: white;
 }
 
 .row {
+    display: flex;
 }
 
 .col {
+    justify-content: space-between;
+    text-align: center;
 }
 
 .hero {
 }
 
 .hero__text {
+    color: red;
 }
 
 .hero p {
 }
 
 .btn {
-
+    background-color: turquoise;
+    color: black;
+    border-radius: 20px;
 }
 
 .btn:hover,
